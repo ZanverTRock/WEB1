@@ -31,14 +31,14 @@
     </div>
  </header>
  <main class="main">
-    <section class="upper__block">
-        <div class="upper__block-container"> 
-            <h1 class="upper__block-container-title">Готовь и делись рецептами</h1>
-            <p class="upper__block-container-description">Никаких кулинарных книг и блокнотов! Храни все любимые рецепты в одном месте.</p>
-            <button class="upper__block-container-button upper__block-container-button-add">+ Добавить рецепт</button>
-            <button class="upper__block-container-button upper__block-container-button-login">Войти</button>
+    <section class="top__block">
+        <div class="top__block"> 
+            <h1 class="top__block-title">Готовь и делись рецептами</h1>
+            <p class="top__block-description">Никаких кулинарных книг и блокнотов! Храни все любимые рецепты в одном месте.</p>
+            <button class="top__block-button top__block-button-add">+ Добавить рецепт</button>
+            <button class="top__block-button top__block-button-login">Войти</button>
                
-            <img class="upper__block-image" src="#" alt ="jpg">        
+            <img class="top__block-image" src="#" alt ="jpg">        
     </section>
     <section class="sorter">
         <h2 class="sorter-title">Умная сортировка по тегам</h2>
@@ -67,29 +67,29 @@
                 </li>    
         </ul>
     </section>
-    <section class="daily__description">
-        <div class="daily__descriptionimg">
+    <section class="daily">
+        <div class="daily__img">
             <img src="#" alt="jpg"> 
-            <span class="daily__description-img-item">@autor__tag</span>
+            <span class="daily__img-item">@authorizationr__tag</span>
         </div>
             
-        <div class="daily__description-container">
-            <div class="daily__description-container-counters">
-                <div class="daily__description-container-counters-likes">
+        <div class="daily__description">
+            <div class="daily__description-counters">
+                <div class="daily__description-counters-likes">
                   
-                    <span class="daily__description-container-counters-item">356</span>
+                    <span class="daily__description-counters-item">356</span>
                 </div>
                     
-                <div class="daily__description-container-counters-time">
+                <div class="daily__description-counters-time">
                  
-                    <span class="daily__description-container-counters-item">35 минут</span>
+                    <span class="daily__description-counters-item">35 минут</span>
                 </div>    
-                <div class="daily__description-container__smile">
+                <div class="daily__description-smile">
               
                 </div>
             </div>
-            <h2 class="daily__description-container-title">Тыквенный супчик <br>На кокосовом молоке</h2>
-            <p class="daily__description-container-description">Если у вас осталась тыква, и вы не знаете что с ней <br> сделать, то это решение для вас! Ароматный,<br> согревающий суп-пюре на кокосовом молоке. Можно<br> даже в Пост!</p>            
+            <h2 class="daily__description-title">Тыквенный супчик <br>На кокосовом молоке</h2>
+            <p class="daily__description-description">Если у вас осталась тыква, и вы не знаете что с ней <br> сделать, то это решение для вас! Ароматный,<br> согревающий суп-пюре на кокосовом молоке. Можно<br> даже в Пост!</p>            
         </div>
     </section>
 
@@ -97,9 +97,9 @@
     <section class="searcher">
         <h2 class="searcher-title">Поиск рецептов</h2>
         <p class="searcher-description">Введите примерное название блюда, а мы по тегам найдем его</p>
-            <div class="searcher-container">
+            <div class="searcher">
                 <input type="text" placeholder="Название блюда" name="searcher">
-                <button class="searcher-container-button" name="Поиск" value="Поиск">Поиск</button>
+                <button class="searcher-button" name="Поиск" value="Поиск">Поиск</button>
                 <ul>
                     <li>Мясо</li>
                     <li>Деликатесы</li>
@@ -109,31 +109,31 @@
             </div>
     </section>
 
-    <div class="autoriz__form">
-        <h2 class="autoriz__form-title">Войдите в профиль</h2>
-        <p class="autoriz__form-text">Добавлять рецепты могут только зарегистрированные пользователи.</p>
-        <div class="autoriz__form-content">
-            <button class="autoriz__form-button autoriz__form-button-login" type="login" name="autoriz__form-button-login">Войти</button>
-            <button class="autoriz__form-button autoriz__form-button-signup" type="sign up" name="autoriz__form-button-signup">Регистрация</button>
+    <div class="authorization__form">
+        <h2 class="authorization__form-title">Войдите в профиль</h2>
+        <p class="authorization__form-text">Добавлять рецепты могут только зарегистрированные пользователи.</p>
+        <div class="authorization__form-content">
+            <button class="authorization__form-button authorization__form-button-login" type="login" name="authorization__form-button-login">Войти</button>
+            <button class="authorization__form-button authorization__form-button-signup" type="sign up" name="authorization__form-button-signup">Регистрация</button>
         </div>
     </div>
 
-    <div class="reg__form">
-        <h2 class="reg__form-title">Регистрация</h2>
-        <form class="reg__form-style" action ="#" method="post">
+    <div class="registration__form">
+        <h2 class="registration__form-title">Регистрация</h2>
+        <form class="registration__form-style" action ="#" method="post">
             <label for="name">Имя</label>
-            <input type="name" placeholder="Введите имя: " required>
+            <input type="name" placeholder="Введите имя: " id="name" required>
             <label for="login">Логин</label>
-            <input type="login" placeholder="Введите логин: " required>
+            <input type="login" placeholder="Введите логин: " id="login" required>
             <label for="password">Пароль</label>
-            <input type="password" placeholder="Введите пароль: " required>
-            <input type="password" placeholder="Повторите пароль: " required>
-            <div class="reg__form-buttons__wrapper">
-                <button class="reg__form-button reg__form-button-submit" type="submit" name="reg__form-button-submit">Зарегистрироваться</button>
-                <button class="reg__form-button reg__form-button-cancel" type="cancel" name="reg__form-button-cancel">Отмена</button>
+            <input type="password" placeholder="Введите пароль: " id="password" required>
+            <input type="password" placeholder="Повторите пароль: "  required>
+            <div class="registration__form-buttons-wrapper">
+                <button class="registration__form-button registration__form-button-submit" type="submit" name="registration__form-button-submit">Зарегистрироваться</button>
+                <button class="registration__form-button registration__form-button-cancel" type="cancel" name="registration__form-button-cancel">Отмена</button>
             </div>
         </form>
-        <a class="reg__form-text" href="">У меня уже есть аккаунт</a>
+        <a class="registration__form-text" href="">У меня уже есть аккаунт</a>
     </div>
 
     <div class="login__form">
@@ -141,15 +141,15 @@
         <div class="login__form-content">
             <form class="login__form-style" action="#" method="post">
                 <label for="login">Логин</label>
-                <input type="login" placeholder="Логин: " required>
+                <input type="login" placeholder="Логин: " id="login" required > 
                 <label for="password">Логин</label>
-                <input type="password" placeholder="Пароль: " required>
-                <div class="login-form-buttons__wrapper">
+                <input type="password" placeholder="Пароль: " id="password" required>
+                <div class="login__form-buttons-wrapper">
                     <button class="login__form-button" type="submit" name="login__form-button-submit">Войти</button>
                     <button class="login__form-button login__form-button-other" type="cancel" name="login__form-button-cancel">Отмена</button>
                 </div>   
             </form>
-            <a class="reg__form-text" href="">У меня ещё нет аккаунта</a>
+            <a class="registration__form-text" href="">У меня ещё нет аккаунта</a>
         </div>
     </div>
  </main>
