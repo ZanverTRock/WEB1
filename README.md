@@ -9,3 +9,13 @@ HomeWork 2
 https://www.figma.com/file/1SfoPr75N1zJGbIz4y9MWX/%D0%94%D0%972?node-id=0%3A1&t=KRYnFNoLeP65YUEE-1
 
 # Lecture2
+Сделана струкрута HTML
+
+# Lecture3
+Сделаны стили
+
+# Lecture4
+Сделала адаптация под разные экраны
+
+# Lecture5
+Начата работа над скриптом
