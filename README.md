@@ -22,3 +22,9 @@ https://www.figma.com/file/1SfoPr75N1zJGbIz4y9MWX/%D0%94%D0%972?node-id=0%3A1&t=
 
 # Lecture6
 Закончена работа со скриптом по "Лекция №5 “JavaScript. Часть 1”"
+
+# Lecture7
+Закончена работа со скриптом по "Лекция №5 “JavaScript. Часть 2”"
+
+# Lecture8
+Закончена работа по PHP. Подключена БД. Проверено преподавателем.
